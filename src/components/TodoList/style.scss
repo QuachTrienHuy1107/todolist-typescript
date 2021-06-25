@@ -1,0 +1,23 @@
+.item {
+    padding-left: 0;
+    height: 220px;
+    overflow: hidden;
+    &__info {
+        display: flex;
+        align-items: center;
+        margin: 10px 0;
+        &__tasks {
+            flex: 1;
+
+            h5 {
+                font-size: 2rem;
+                text-overflow: ellipsis;
+            }
+
+            p {
+                font-size: 0.7rem;
+                margin-left: 5px;
+            }
+        }
+    }
+}

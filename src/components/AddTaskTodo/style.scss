@@ -1,0 +1,19 @@
+.todo {
+    display: flex;
+    /*     justify-content: space-between;
+    align-items: center; */
+    margin: 10px 0 30px;
+
+    &__form {
+        display: flex;
+        justify-content: space-between;
+
+        div {
+            margin-right: 10px;
+        }
+    }
+
+    &__btn {
+        margin-left: 10px;
+    }
+}
